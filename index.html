@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Bumble Bee</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <img src="/images/logo.svg" alt="logo" class="logo">
+        <nav>
+            <a href="#" class="hide-desktop show-mobile">
+            <img src="./images/ham.svg" alt="ham menu" class="menu" id="menu"></a>
+            <ul class="show-desktop hide-mobile" id="nav">
+                <li id="exit" class="exit-button hide-desktop"><img src="./images/exit.svg" alt="exit"></li>
+                <li><a href="/home.html">Home</a> </li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a> </li>
+                <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+<section>
+<img src="./images/server.svg" alt="server image" class="server">
+<h1>A service based software solution</h1>
+<p class="subhead">Pay for what service you use</p>
+<img src="./images/scroll.svg" alt="scroll down" class="scroll show-desktop hide-mobile">
+</section>
+</div>
+<div class="blue-container">
+    <div class="container">
+        <ul>
+        <li><img src="./images/icon-1.svg" alt="calender">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nibh, porta quis gravida vel, pharetra at elit. Sed in tincidunt ipsum. Vivamus mauris leo, varius eu hendrerit ac, egestas quis leo. Aenean egestas diam nisl, ac scelerisque lorem pharetra a. Morbi quis orci nunc. Quisque vehicula dolor ut mi blandit eleifend. Nullam ipsum turpis, cursus vel interdum a, faucibus quis enim. Morbi nunc mauris, sollicitudin sed libero in, pellentesque rhoncus leo.</p>
+    </li>
+    
+        <li><img src="./images/icon-2.svg" alt="calender">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nibh, porta quis gravida vel, pharetra at elit. Sed in tincidunt ipsum. Vivamus mauris leo, varius eu hendrerit ac, egestas quis leo. Aenean egestas diam nisl, ac scelerisque lorem pharetra a. Morbi quis orci nunc. Quisque vehicula dolor ut mi blandit eleifend. Nullam ipsum turpis, cursus vel interdum a, faucibus quis enim. Morbi nunc mauris, sollicitudin sed libero in, pellentesque rhoncus leo.</p>
+        </li>
+        
+        <li><img src="./images/icon-3.svg" alt="calender">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nibh, porta quis gravida vel, pharetra at elit. Sed in tincidunt ipsum. Vivamus mauris leo, varius eu hendrerit ac, egestas quis leo. Aenean egestas diam nisl, ac scelerisque lorem pharetra a. Morbi quis orci nunc. Quisque vehicula dolor ut mi blandit eleifend. Nullam ipsum turpis, cursus vel interdum a, faucibus quis enim. Morbi nunc mauris, sollicitudin sed libero in, pellentesque rhoncus leo.</p>
+        </li>
+                </ul>
+    </div>
+</div>
+<div></div>
+<div class="grey-container">
+        <div class="container">
+            <ul>
+
+                <li>
+                    <figure>
+                    <img src="./images/user1.png" alt="user testimonial picture">
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nibh, porta quis gravida vel, pharetra at elit. Sed in tincidunt ipsum. Vivamus mauris leo, varius eu hendrerit ac, egestas quis leo. Aenean egestas diam nisl, ac scelerisque lorem pharetra a. Morbi quis orci nunc. Quisque vehicula dolor ut mi blandit eleifend. Nullam ipsum turpis, cursus vel interdum a, faucibus quis enim. Morbi nunc mauris, sollicitudin sed libero in, pellentesque rhoncus leo.</blockquote>
+                    <figcaption>- Jane Doe</figcaption>
+                </figure>
+                </li>
+                <li>
+                    <figure>
+                    <img src="./images/user2.png" alt="user testimonial picture">
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nibh, porta quis gravida vel, pharetra at elit. Sed in tincidunt ipsum. Vivamus mauris leo, varius eu hendrerit ac, egestas quis leo. Aenean egestas diam nisl, ac scelerisque lorem pharetra a. Morbi quis orci nunc. Quisque vehicula dolor ut mi blandit eleifend. Nullam ipsum turpis, cursus vel interdum a, faucibus quis enim. Morbi nunc mauris, sollicitudin sed libero in, pellentesque rhoncus leo.</blockquote>
+                    <figcaption>- John Doe</figcaption>
+                </figure>
+                    </li>
+            </ul>
+        </div>
+</div>
+
+<div class="container">
+    <h2>Start your free trail</h2>
+    <a href="#" class="cta">Get Started</a>
+</div>
+<footer>
+<div class="footer-container">
+    <div class="container">
+        <a href="#"><img src="./images/logo-white.svg" alt="logo" class="logo"></a>
+        <p class="address">Chennai, 600097 <br/> India</p>
+        <ul class="footer-links">
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+    </div>
+    
+</div>
+
+</footer>
+    
+</body>
+<script>
+    var ham = document.getElementById("menu");
+    var nav = document.getElementById("nav");
+    var exit = document.getElementById("exit");
+
+    menu.addEventListener('click', function(e){
+        nav.classList.toggle('hide-mobile');
+        e.preventDefault();
+    })
+    exit.addEventListener('click', function(e){
+        nav.classList.add('hide-mobile');
+        e.preventDefault();
+    })
+
+
+</script>
+</html>
